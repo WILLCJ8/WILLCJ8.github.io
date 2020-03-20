@@ -1,0 +1,109 @@
+/*Body style*/
+body {
+  margin: 0;
+  background-color: #262626;
+}
+
+
+
+/*Heading Style*/
+.Headings {
+  display: flex;
+	color: #ffc300;
+	font-family: "Raleway", "Lemon/Milk", "Arial";
+	font-size: 3vw;
+	text-shadow: 1px 0px 1px #6bd0ff, 0px 1px 1px #6bd0ff, 2px 1px 1px #6bd0ff;
+	color: #00aeff;
+  margin: 20px;
+}
+
+
+/*Paragraphs style*/
+.Paragraphs {
+	color: whitesmoke;
+  font-family: "Roboto", "Raleway", "Arial";
+  margin: 20px;
+  font-size: 18;
+}
+
+
+/*Navigation bar style*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00aeff;
+}
+
+ul.nav li {
+    float: left;}
+
+ul.nav li a {
+    display: flex;
+    color: white;
+    font-family: "Roboto", "Raleway", "Arial";
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover:not(.active) {background-color: #111;}
+
+ul.nav li a.active {background-color: #262626}
+
+ul.nav li.right {float: right;}
+
+
+
+
+/*Below is the Page 1 Form design*/
+.Form {
+	max-width: 400px;
+  font-family: "Roboto", "Raleway", "Arial";
+  font-size: 18
+}
+.Form li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.Form label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+}
+.Form input[type=submit], .Form input[type=button]{
+	background: #00AEFF;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.Form input[type=submit]:hover, .Form input[type=button]:hover{
+	background: #00AEFF;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.Form .required{
+	color:red;
+}
+
+/*Font list & link*/
+@font-face {
+	font-family: "Roboto";
+	src: url("C:\Users\ItsCo\Desktop\School\BIT1\Web Dev\Class 2\assets\fonts\Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Lemon/Milk";
+	src: url("C:\Users\ItsCo\Desktop\School\BIT2\Web\Week 2\Checkpoint\assets\fonts\LemonMilk.otf");
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("C:\Users\ItsCo\Desktop\School\BIT1\Web Dev\Class 2\assets\fonts\Raleway-Regular.ttf");
+}
+
