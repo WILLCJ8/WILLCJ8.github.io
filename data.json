@@ -1,7 +1,0 @@
-fetch('http://willcj8.github.io/')
-.then(res => {
-    return res.json();
-})
-.then(data => {
-    console.log(data);
-});
