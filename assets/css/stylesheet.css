@@ -117,20 +117,3 @@ ul.nav li.right {float: right;}
 .Form .required{
 	color:red;
 }
-
-/*Font list & link*/
-@font-face {
-	font-family: "Roboto";
-	src: url("C:\Users\ItsCo\Desktop\School\BIT1\Web Dev\Class 2\assets\fonts\Roboto-Regular.ttf");
-}
-
-@font-face {
-	font-family: "Lemon/Milk";
-	src: url("C:\Users\ItsCo\Desktop\School\BIT2\Web\Week 2\Checkpoint\assets\fonts\LemonMilk.otf");
-}
-
-@font-face {
-	font-family: "Raleway";
-	src: url("C:\Users\ItsCo\Desktop\School\BIT1\Web Dev\Class 2\assets\fonts\Raleway-Regular.ttf");
-}
-

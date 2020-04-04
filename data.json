@@ -1,4 +1,4 @@
-fetch('http://willcj8.github.io/')
+fetch('data.json')
 .then(res => {
     return res.json();
 })
