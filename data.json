@@ -1,0 +1,7 @@
+{
+    "Top Artists":[
+      {"img" : "Eminem.jpg", "Name":"Eminem", "Listens":"3104"},
+      {"img" : "DaBaby.jpg", "Name":"DaBaby", "Listens":"1633"},
+      {"img" : "TheWeeknd.jpg", "Name":"The Weeknd", "Listens":"837"}
+    ]
+    }
