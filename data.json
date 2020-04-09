@@ -3,5 +3,13 @@
       {"img" : "Eminem.jpg", "Name":"Eminem", "Listens":"3104"},
       {"img" : "DaBaby.png", "Name":"DaBaby", "Listens":"1633"},
       {"img" : "TheWeeknd.jpg", "Name":"The Weeknd", "Listens":"837"}
+    ],
+    
+    "Recently Played Songs":[
+        {"img" : "Hotel Diablo", "Title":"Glass House (feat. Naomi Wild)"},
+        {"img" : "Music To Be Murdered By", "Title":"Marsh"},
+        {"img" : "ADHD", "Title":"Revenge"},
+        {"img" : "Funeral", "Title":"Mama Mia"},
+        {"img" : "Music To Be Murdered By", "Title":"You Gon' Learn (feat. Royce Da 5'9\" & White Gold"}
     ]
-    }
+}
