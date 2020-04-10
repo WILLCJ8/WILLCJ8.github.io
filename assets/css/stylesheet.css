@@ -37,7 +37,6 @@ img {
 /*Heading Style*/
 .Headings {
   display: flex;
-	color: #ffc300;
 	font-family: "Raleway", "Roboto", "Arial";
 	font-size: 2vw;
 	color: #00aeff;
@@ -81,3 +80,60 @@ ul.nav li a:hover:not(.active) {background-color: #111;}
 ul.nav li a.active {background-color: #262626}
 
 ul.nav li.right {float: right;}
+
+
+
+  form {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 5px #262626; 
+  background: #262626;
+  font-family: "Raleway", "Roboto", "Arial";
+	font-size: 2vw;
+	color: #00aeff;
+  margin: 20px;
+  }
+
+  input, textarea {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #00aeff;
+  outline: none;
+  font-family: "Roboto", "Raleway", "Arial";
+  }
+
+  button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #00aeff; 
+  font-family: "Roboto", "Raleway", "Arial";
+  font-size: 16px;
+  font-weight: 500;
+  color: #262626;
+  }
+
+  button:hover {
+  background: #2371a0;
+  }   
+
+  @media (min-width: 568px) {
+  .main-block {
+  flex-direction: row;
+  }
+  .left-part, form {
+  width: 30%;
+  }
+  .fa-envelope {
+  margin-top: 0;
+  margin-left: 10%;
+  }
+  .fa-at {
+  margin-top: -10%;
+  margin-left: 65%;
+  }
+  .fa-mail-bulk {
+  margin-top: 2%;
+  margin-left: 28%;
+  }

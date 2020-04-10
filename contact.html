@@ -15,6 +15,7 @@
         <!-- Font Links -->
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
         
+        <script src="Javascript.js"></script>
         
     </head>
     <body>
@@ -24,16 +25,17 @@
                         <li><a class="active" href="contact.html">Contact</a></li>
                 </ul>
         </div>
-    
-        <div class="Headings">
-                <h1>Contact</h1>
-        </div>
 
-
-        <div class = "Paragraphs">
-                <p>
-                        Contact page info to fill in later
-                </p>
+        <div class = "Form">
+                <form action="/">
+                        <h1>Contact Us</h1>
+                        <div class="info">
+                          <input class="fname" type="text" name="name" placeholder="Full name">
+                          <input type="text" name="name" placeholder="Email">
+                          <input type="text" name="name" placeholder="Phone number">
+                        </div>
+                        <button onclick="submitAlert()" type="submit">Submit</button>
+                      </form>
         </div>
     </body>
 </html>
