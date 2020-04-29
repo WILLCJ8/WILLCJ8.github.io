@@ -16,11 +16,11 @@ img {
 
 /* The hero image */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.freepik.com/free-photos-vectors/background");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/3467296.jpg");
   height: 30%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: initial;
   position: relative;
 }
 
@@ -135,5 +135,30 @@ ul.nav li.right {float: right;}
   }
   .fa-mail-bulk {
   margin-top: 2%;
-  margin-left: 28%;
+  margin-left: 28%;}}
+
+  .fa {
+    color: red;
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
   }
+  
+  .fa:hover {
+    color: red;
+  }
+
+table, th, td 
+{
+    border: solid 1px #DDD;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Roboto", "Raleway", "Arial";
+    margin: 20px;
+    font-size: 18;
+}
+th {
+    font-weight:bold;
+}

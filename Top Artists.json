@@ -1,0 +1,12 @@
+{
+    "Top Artists":[
+    {"Image":"/assets/Image/Eminem.jpg", "Name":"Eminem", "Listens":"2104"},
+    {"Image":"DaBaby.png", "Name":"DaBaby", "Listens":"1033"},
+    {"Image":"Machine Gun Kelly.jpg", "Name":"Machine Gun Kelly", "Listens":"1040"},
+    {"Image":"TheWeeknd.jpg", "Name":"The Weeknd", "Listens":"837"},
+    {"Image":"Joyner Lucas.jpg", "Name":"Joyner Lucas", "Listens":"821"},
+    {"Image":"Lil Wayne.jpg", "Name":"Lil Wayne", "Listens":"603"},
+    {"Image":"Logic.jpg", "Name":"Logic", "Listens":"586"},
+    {"Image":"Roddy Ricch.jpg", "Name":"Roddy Ricch", "Listens":"425"}
+  ]
+}

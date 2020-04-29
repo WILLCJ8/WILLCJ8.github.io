@@ -1,15 +1,39 @@
 {
     "Top Artists":[
-      {"img" : "Eminem.jpg", "Name":"Eminem", "Listens":"3104"},
-      {"img" : "DaBaby.png", "Name":"DaBaby", "Listens":"1633"},
-      {"img" : "TheWeeknd.jpg", "Name":"The Weeknd", "Listens":"837"}
+      {"Image":"/assets/Image/Eminem.jpg", "Name":"Eminem", "Listens":"2104"},
+      {"Image":"DaBaby.png", "Name":"DaBaby", "Listens":"1033"},
+      {"Image":"Machine Gun Kelly.jpg", "Name":"Machine Gun Kelly", "Listens":"1040"},
+      {"Image":"TheWeeknd.jpg", "Name":"The Weeknd", "Listens":"837"},
+      {"Image":"Joyner Lucas.jpg", "Name":"Joyner Lucas", "Listens":"821"},
+      {"Image":"Lil Wayne.jpg", "Name":"Lil Wayne", "Listens":"603"},
+      {"Image":"Logic.jpg", "Name":"Logic", "Listens":"586"},
+      {"Image":"Roddy Ricch.jpg", "Name":"Roddy Ricch", "Listens":"425"}
     ],
 
     "Recently Played":[
-        {"img" : "Hotel Diablo", "Title":"Glass House (feat. Naomi Wild)"},
-        {"img" : "Music To Be Murdered By", "Title":"Marsh"},
-        {"img" : "ADHD", "Title":"Revenge"},
-        {"img" : "Funeral", "Title":"Mama Mia"},
-        {"img" : "Music To Be Murdered By", "Title":"You Gon' Learn (feat. Royce Da 5'9\" & White Gold)"}
-    ]
+        {"Image":"Hotel Diablo", "Title:":"Candy (feat. Trippie Redd)", "Artist":"Machine Gun Kelly", "Last Listened:":"47 minutes ago"}, 
+        {"Image":"Music To Be Murdered By", "Title:":"Marsh", "Artist":"Eminem", "Last Listened:":"52 minutes ago"},
+        {"Image":"ADHD", "Title:":"Revenge", "Artist":"Joyner Lucas", "Last Listened:":"59 minutes ago"},
+        {"Image":"Funeral", "Title:":"Mama Mia","Artist":"Lil Wayne", "Last Listened:":"An hour ago"},
+        {"Image":"Music To Be Murdered By", "Title:":"You Gon' Learn (feat. Royce Da 5'9\" & White Gold)", "Artist":"Eminem", "Last Listened:":"An hour ago"},
+        {"Image":"Bezerk", "Title:":"Bezerk (feat.A$AP Ferg)", "Artist":"Big Sean", "Last Listened:":"An hour ago"},
+        {"Image":"Blame it on Baby", "Title:":"DROP (feat. A Boogie wit da Hoodie & London On Da Track)", "Artist":"DaBaby", "Last Listened:":"An hour ago"},
+        {"Image":"Blame it on Baby", "Title:":"ROCKSTAR (feat. Roddy Ricch)", "Artist":"DaBaby", "Last Listened:":"An hour ago"},
+        {"Image":"Only The Team", "Title:":"Only The Team (with Lil Mosey & Lil Tjay)", "Artist":"Rvssian", "Last Listened:":"An hour ago"},
+        {"Image":"Hotel Diablo", "Title:":"Glass House (feat. Naomi Wild)", "Artist":"Machine Gun Kelly", "Last Listened:":"An hour ago"}
+    ],
+
+    "Ten Overall Tracks":[
+      {"Title":"Reminder", "Artist":"The Weeknd", "Total Listens":"302"},
+      {"Title":"No Regrets (feat. Don Toliver", "Artist":"Eminem", "Total Listens":"274"},
+      {"Title":"Bezerk (feat. A$AP Ferg)", "Artist":"Big Sean", "Total Listens":"204"},
+      {"Title":"LOVE.FEAT.ZACARI.", "Artist":"Kendrick Lamar", "Total Listens":""},
+      {"Title":"Element", "Artist":"Kendrick Lamar", "Total Listens":"200"},
+      {"Title":"Candy (feat. Trippie Redd)", "Artist":"Machine Gun Kelly", "Total Listens":"194"},
+      {"Title":"No Role Modelz", "Artist":"J.Cole", "Total Listens":"168"},
+      {"Title":"Not Alike (feat. Royce Da 5'9)", "Artist":"Eminem", "Total Listens":"152"},
+      {"Title":"Lord Willin'", "Artist":"Logic", "Total Listens":"98"},
+      {"Title":"A.D.H.D", "Artist":"Kendrick Lamar", "Total Listens":"79"}
+  ]
 }
+

@@ -11,9 +11,11 @@
         
         <!--Links CSS file to HTML-->
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
-    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <!-- Font Links -->
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+        
 
         <script src="Javascript.js"></script>
         
@@ -52,6 +54,13 @@
                 <ul id="artist_grid" class="artist_list"></ul>
         </div>
         
+        <i onclick="heartFunc(this)" class="fa fa-heart"></i>
+
+
+        <input type="button" onclick="RecentTable()" value="Create Table From JSON" />
+        <p id="showData"></p>
+
+
         <br/><br/><br/><br/><br/><br/>
         <div class = "Form">
                 <form action="/">
