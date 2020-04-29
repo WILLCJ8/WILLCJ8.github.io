@@ -17,6 +17,8 @@ fetch('/data.json')
 });
 
 
+
+
 function RecentTable() {
     var recentlyPlayed = [
         {"Image":"Hotel Diablo", "Title:":"Candy (feat. Trippie Redd)", "Artist":"Machine Gun Kelly", "Last Listened:":"47 minutes ago"}, 
@@ -31,8 +33,6 @@ function RecentTable() {
         {"Image":"Hotel Diablo", "Title:":"Glass House (feat. Naomi Wild)", "Artist":"Machine Gun Kelly", "Last Listened:":"An hour ago"}    
     ]
 
-    // EXTRACT VALUE FOR HTML HEADER. 
-    // ('Book ID', 'Book Name', 'Category' and 'Price')
     var col = [];
     for (var i = 0; i < recentlyPlayed.length; i++) {
         for (var key in recentlyPlayed[i]) {
@@ -42,20 +42,15 @@ function RecentTable() {
         }
     }
 
-    // CREATE DYNAMIC TABLE.
     var table = document.createElement("table");
 
-    // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
-
-    var tr = table.insertRow(-1);                   // TABLE ROW.
+    var tr = table.insertRow(-1);
 
     for (var i = 0; i < col.length; i++) {
-        var th = document.createElement("th");      // TABLE HEADER.
+        var th = document.createElement("th");
         th.innerHTML = col[i];
         tr.appendChild(th);
     }
-
-    // ADD JSON DATA TO THE TABLE AS ROWS.
     for (var i = 0; i < recentlyPlayed.length; i++) {
 
         tr = table.insertRow(-1);
@@ -65,8 +60,6 @@ function RecentTable() {
             tabCell.innerHTML = recentlyPlayed[i][col[j]];
         }
     }
-
-    // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
     var divContainer = document.getElementById("showData");
     divContainer.innerHTML = "";
     divContainer.appendChild(table);
