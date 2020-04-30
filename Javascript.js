@@ -8,7 +8,7 @@ function heartFunc(x) {
 
 
 
-const tableRecent = document.getElementById('Recently Played');
+const tableRecent = document.getElementById('Recently_Played');
 
 fetch('/Recently Played.json')
 .then(res => {
@@ -30,7 +30,7 @@ fetch('/Recently Played.json')
     tableRecent.innerHTML = table;
 });
 
-const tableTracks = document.getElementById('Top Tracks');
+const tableTracks = document.getElementById('Top_Tracks');
 
 fetch('/Top Tracks.json')
 .then(res => {
@@ -52,7 +52,7 @@ fetch('/Top Tracks.json')
     tableTracks.innerHTML = table;
 });
 
-const gridArtists = document.getElementById('Top Artists');
+const gridArtists = document.getElementById('Top_Artists');
 
 fetch('/Top Artists.json')
 .then(res => {
