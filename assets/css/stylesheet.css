@@ -248,7 +248,6 @@ ul.nav li.right {float: right;}
   tr:last-child td:last-child {
    border-bottom-right-radius:3px;
   }
-  }
   
   td:last-child {
    border-right: 0px;
@@ -308,8 +307,3 @@ ul.nav li.right {float: right;}
     max-width: 100%;
   }
 }
-
-
-
-/*** Table Styles **/
-

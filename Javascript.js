@@ -52,9 +52,9 @@ fetch('/Top Tracks.json')
     tableTracks.innerHTML = table;
 });
 
-const tableArtists = document.getElementById('Top Artists');
+const gridArtists = document.getElementById('Top Artists');
 
-fetch('/Top Tracks.json')
+fetch('/Top Artists.json')
 .then(res => {
     return res.json();
 })
@@ -62,14 +62,8 @@ fetch('/Top Tracks.json')
     let table = '';
     table += "<table>"
     data.forEach(element => {
-        table += '<tr>'
-        table += `<td><img src="${element["Image"]}"></td>`
-        table += `<td>&nbsp;&nbsp;${element["Title"]}&nbsp;&nbsp;</td>`
-        table += `<td>&nbsp;&nbsp;${element["Artist"]}&nbsp;&nbsp;</td>`
-        table += `<td>&nbsp;&nbsp;${element["Total Listens"]}</td>`
-        table += '<td>&nbsp;&nbsp;<i onclick="heartFunc(this)" class="fa fa-heart-o"></i>&nbsp;&nbsp;</td>'
-        table += "</tr>"
+        table += `<img src="${element["Image"]}" style="margin-left: 20px">&nbsp;&nbsp;`
     })
     table += "</table>"
-    tableArtists.innerHTML = table;
+    gridArtists.innerHTML = table;
 });
