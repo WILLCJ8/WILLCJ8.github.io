@@ -1,14 +1,9 @@
-{
-    "Recently Played":[
-    {"Image":"Hotel Diablo", "Title:":"Candy (feat. Trippie Redd)", "Artist":"Machine Gun Kelly", "Last Listened:":"47 minutes ago"}, 
-    {"Image":"Music To Be Murdered By", "Title:":"Marsh", "Artist":"Eminem", "Last Listened:":"52 minutes ago"},
-    {"Image":"ADHD", "Title:":"Revenge", "Artist":"Joyner Lucas", "Last Listened:":"59 minutes ago"},
-    {"Image":"Funeral", "Title:":"Mama Mia","Artist":"Lil Wayne", "Last Listened:":"An hour ago"},
-    {"Image":"Music To Be Murdered By", "Title:":"You Gon' Learn (feat. Royce Da 5'9\" & White Gold)", "Artist":"Eminem", "Last Listened:":"An hour ago"},
-    {"Image":"Bezerk", "Title:":"Bezerk (feat.A$AP Ferg)", "Artist":"Big Sean", "Last Listened:":"An hour ago"},
-    {"Image":"Blame it on Baby", "Title:":"DROP (feat. A Boogie wit da Hoodie & London On Da Track)", "Artist":"DaBaby", "Last Listened:":"An hour ago"},
-    {"Image":"Blame it on Baby", "Title:":"ROCKSTAR (feat. Roddy Ricch)", "Artist":"DaBaby", "Last Listened:":"An hour ago"},
-    {"Image":"Only The Team", "Title:":"Only The Team (with Lil Mosey & Lil Tjay)", "Artist":"Rvssian", "Last Listened:":"An hour ago"},
-    {"Image":"Hotel Diablo", "Title:":"Glass House (feat. Naomi Wild)", "Artist":"Machine Gun Kelly", "Last Listened:":"An hour ago"}
+[
+    {"Image":"/assets/img/Albums/Hotel_Diablo.png", "Title":"Candy (feat. Trippie Redd)", "Artist":"Machine Gun Kelly", "Last Listened":"47 minutes ago"}, 
+    {"Image":"/assets/img/Albums/Music_To_Be_Murdered_By.jpg", "Title":"You Gon' Learn (feat. Royce Da 5'9\" & White Gold)", "Artist":"Eminem", "Last Listened":"An hour ago"},
+    {"Image":"/assets/img/Albums/Bezerk.jpg", "Title":"Bezerk (feat.A$AP Ferg)", "Artist":"Big Sean", "Last Listened":"An hour ago"},
+    {"Image":"/assets/img/Albums/Blame_It_On_Baby.jpg", "Title":"DROP (feat. A Boogie wit da Hoodie & London On Da Track)", "Artist":"DaBaby", "Last Listened":"An hour ago"},
+    {"Image":"/assets/img/Albums/Blame_It_on_Baby.jpg", "Title":"ROCKSTAR (feat. Roddy Ricch)", "Artist":"DaBaby", "Last Listened":"An hour ago"},
+    {"Image":"/assets/img/Albums/Only_The_Team.png", "Title":"Only The Team (with Lil Mosey & Lil Tjay)", "Artist":"Rvssian", "Last Listened":"An hour ago"},
+    {"Image":"/assets/img/Albums/Hotel_Diablo.png", "Title":"Glass House (feat. Naomi Wild)", "Artist":"Machine Gun Kelly", "Last Listened":"An hour ago"}
 ]
-}

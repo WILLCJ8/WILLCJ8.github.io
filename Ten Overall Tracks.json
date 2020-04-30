@@ -1,5 +1,4 @@
-{
-    "Ten Overall Tracks":[
+[
     {"Title":"Reminder", "Artist":"The Weeknd", "Total Listens":"302"},
     {"Title":"No Regrets (feat. Don Toliver", "Artist":"Eminem", "Total Listens":"274"},
     {"Title":"Bezerk (feat. A$AP Ferg)", "Artist":"Big Sean", "Total Listens":"204"},
@@ -11,4 +10,3 @@
     {"Title":"Lord Willin'", "Artist":"Logic", "Total Listens":"98"},
     {"Title":"A.D.H.D", "Artist":"Kendrick Lamar", "Total Listens":"79"}
 ]
-}

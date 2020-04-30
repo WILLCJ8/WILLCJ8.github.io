@@ -17,7 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
         
 
-        <script src="Javascript.js"></script>
+        
         
         
     </head>
@@ -45,21 +45,20 @@
         <div class = "Paragraphs">
                 <p></p>
         </div>
-
-        <div class="outer_div">
-                <h2>Top Artists</h2>
-                <ul id="artist_grid" class="artist_list"> </ul>
-        </br></br>
-                <h2>Recently Played</h2>
-                <ul id="artist_grid" class="artist_list"></ul>
-        </div>
         
-        <i onclick="heartFunc(this)" class="fa fa-heart"></i>
+        <!--<i onclick="heartFunc(this)" class="fa fa-heart"></i><br>-->
 
+        
 
-        <input type="button" onclick="RecentTable()" value="Create Table From JSON" />
-        <p id="showData"></p>
-
+        <b>Recently Played</b>
+        <br>
+        <td></td>
+        <div id="table"></div>
+        <br>
+        <b>Artists</b>
+        <br>
+        <div id="Tracks"></div>
+        <div id="Artists"></div>
 
         <br/><br/><br/><br/><br/><br/>
         <div class = "Form">
@@ -74,5 +73,6 @@
                         <button type="submit">Submit</button>
                       </form>
         </div>
+        <script src="/Javascript.js"></script>
     </body>
 </html>
