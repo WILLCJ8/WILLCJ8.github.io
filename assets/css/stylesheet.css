@@ -45,7 +45,7 @@ img {
 	color: whitesmoke;
   font-family: "Roboto", "Raleway", "Arial";
   margin: 20px;
-  font-size: 18;
+  font-size: 18px;
 }
 
 
@@ -155,7 +155,7 @@ ul.nav li.right {float: right;}
     color: whitesmoke;
     font-family: "Roboto", "Raleway", "Arial";
     margin: 20px;
-    font-size: 18;
+    font-size: 18px;
   }
   
   .table-fill {
@@ -175,10 +175,10 @@ ul.nav li.right {float: right;}
    background:#262626;
    font-size:18px;
    font-weight: 100;
-   padding:24 px;
+   padding: 24px;
    text-align:left;
    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-   vertical-align:left;
+   vertical-align: left;
   }
 
    tr {
