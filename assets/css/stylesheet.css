@@ -4,7 +4,7 @@ body, html {
     margin: 0;
   background-color: #262626;
 }
-
+/*Simple img styling*/
 img {
   display: block;
   width: 60px;
@@ -12,7 +12,7 @@ img {
 
 /* The hero image */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/3467296.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/hero_image.jpg");
   height: 30%;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,26 +118,17 @@ ul.nav li.right {float: right;}
   .main-block {
   flex-direction: row;
   }
+}
+
   .left-part, form {
   width: 30%;
   }
-  .fa-envelope {
-  margin-top: 0;
-  margin-left: 10%;
-  }
-  .fa-at {
-  margin-top: -10%;
-  margin-left: 65%;
-  }
-  .fa-mail-bulk {
-  margin-top: 2%;
-  margin-left: 28%;}}
 
+  /*This is the heart styling*/
   .fa {
     color: #2371a0;
     font-size: 50px;
     cursor: pointer;
-    user-select: none;
   }
   
   .fa:hover {
@@ -299,10 +290,10 @@ ul.nav li.right {float: right;}
     }
   }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
-}
+  }
