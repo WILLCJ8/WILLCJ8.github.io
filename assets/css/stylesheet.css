@@ -40,28 +40,6 @@ img {
   font-family: "Raleway", "Roboto", "Arial";
 }
 
-
-/*Heading Style*/
-
-.Headings {
-  display: flex;
-  font-family: "Raleway", "Roboto", "Arial";
-  font-size: 2vw;
-  color: #00aeff;
-  margin: 20px;
-}
-
-
-/*Paragraphs style*/
-
-.Paragraphs {
-  color: whitesmoke;
-  font-family: "Roboto", "Raleway", "Arial";
-  margin: 20px;
-  font-size: 18px;
-}
-
-
 /*Navigation bar style*/
 
 ul.nav {
@@ -78,7 +56,6 @@ ul.nav li {
 
 ul.nav li a {
   display: flex;
-  color: white;
   font-family: "Roboto", "Raleway", "Arial";
   color: whitesmoke;
   text-align: center;
@@ -87,7 +64,7 @@ ul.nav li a {
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #2371A0;
 }
 
 ul.nav li a.active {
@@ -157,23 +134,24 @@ form {
   cursor: pointer;
 }
 
-.fa:hover {
-  color: #2371a0;
-}
-
 
 /*This is the music table style*/
 
-table,
-td {
-  border: solid 1px #262626;
+table{
+  margin-left: 20px;
+  margin-bottom: 50px;
   border-collapse: collapse;
-  padding: 0px 0px;
-  text-align: left;
-  color: whitesmoke;
   font-family: "Roboto", "Raleway", "Arial";
-  margin: 20px;
+}
+
+td {
+  background: #262626;
+  color: whitesmoke;
+  padding-right: 20px;
+  text-align: left;
+  vertical-align: middle;
   font-size: 18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .table-fill {
@@ -188,33 +166,6 @@ td {
   animation: float 5s infinite;
 }
 
-th {
-  color: #303030;
-  background: #262626;
-  font-size: 18px;
-  font-weight: 100;
-  padding: 24px;
-  text-align: left;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-tr {
-  color: #303030;
-  font-size: 16px;
-  font-weight: normal;
-  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
-}
-
-td {
-  background: #262626;
-  padding: 2px;
-  text-align: left;
-  vertical-align: middle;
-  font-weight: 300;
-  font-size: 18px;
-  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-}
-
 div.table-title {
   display: block;
   margin: 10px;
@@ -223,74 +174,11 @@ div.table-title {
 }
 
 .table-title h3 {
-  color: #fafafa;
-  font-size: 20px;
+  color: whitesmoke;
+  font-size: 22px;
   font-weight: 300;
-  font-style: normal;
-  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-family: "Roboto", "Raleway", "Arial";
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-  text-align: left;
-}
-
-tr:hover td {
-  background: #303030;
-}
-
-th:first-child {
-  border-top-left-radius: 3px;
-}
-
-th:last-child {
-  border-top-right-radius: 3px;
-  border-right: none;
-}
-
-tr:first-child {
-  border-top: none;
-}
-
-tr:last-child {
-  border-bottom: none;
-}
-
-tr:nth-child(odd):hover td {
-  background: #303030;
-}
-
-tr:last-child td:first-child {
-  border-bottom-left-radius: 3px;
-}
-
-tr:last-child td:last-child {
-  border-bottom-right-radius: 3px;
-}
-
-td:last-child {
-  border-right: 0px;
-}
-
-th.text-left {
-  text-align: left;
-}
-
-th.text-center {
-  text-align: center;
-}
-
-th.text-right {
-  text-align: right;
-}
-
-td.text-left {
-  text-align: left;
-}
-
-td.text-center {
-  text-align: center;
-}
-
-td.text-right {
-  text-align: right;
 }
 
 .row {

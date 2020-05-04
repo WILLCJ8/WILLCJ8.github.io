@@ -24,10 +24,10 @@ function submitAlert() {
       data.forEach(element => {
         table += '<tr>'
         table += `<td><img src="${element["Image"]}"></td>`
-        table += `<td>  ${element["Title"]}  </td>`
-        table += `<td>  ${element["Artist"]}  </td>`
+        table += `<td>  ${element["Title"]}</td>`
+        table += `<td>  ${element["Artist"]}</td>`
         table += `<td>  ${element["Last Listened"]}</td>`
-        table += '<td>  <i onclick="heartFunc(this)" class="fa fa-heart"></i>  </td>'
+        table += '<td>  <i onclick="heartFunc(this)" class="fa fa-heart"></i></td>'
         table += "</tr>"
       })
       table += "</table>"
