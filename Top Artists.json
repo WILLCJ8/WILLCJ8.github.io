@@ -1,10 +1,42 @@
 [
-    {"Image":"/assets/img/Artists/Eminem.jpg", "Name":"Eminem", "Total Listens":"2104"},
-    {"Image":"/assets/img/Artists/DaBaby.png", "Name":"DaBaby", "Total Listens":"1033"},
-    {"Image":"/assets/img/Artists/Machine_Gun_Kelly.jpg", "Name":"Machine Gun Kelly", "Total Listens":"1040"},
-    {"Image":"/assets/img/Artists/TheWeeknd.jpg", "Name":"The Weeknd", "Total Listens":"837"},
-    {"Image":"/assets/img/Artists/Joyner_Lucas.jpg", "Name":"Joyner Lucas", "Total Listens":"821"},
-    {"Image":"/assets/img/Artists/Lil_Wayne.jpg", "Name":"Lil Wayne", "Total Listens":"603"},
-    {"Image":"/assets/img/Artists/Logic.jpg", "Name":"Logic", "Total Listens":"586"},
-    {"Image":"/assets/img/Artists/Roddy_Ricch.jpg", "Name":"Roddy Ricch", "Total Listens":"425"}
-]
+    {
+      "Image": "/assets/img/Artists/Eminem.jpg",
+      "Name": "Eminem",
+      "Total Listens": "2104"
+    },
+    {
+      "Image": "/assets/img/Artists/DaBaby.png",
+      "Name": "DaBaby",
+      "Total Listens": "1033"
+    },
+    {
+      "Image": "/assets/img/Artists/Machine_Gun_Kelly.jpg",
+      "Name": "Machine Gun Kelly",
+      "Total Listens": "1040"
+    },
+    {
+      "Image": "/assets/img/Artists/TheWeeknd.jpg",
+      "Name": "The Weeknd",
+      "Total Listens": "837"
+    },
+    {
+      "Image": "/assets/img/Artists/Joyner_Lucas.jpg",
+      "Name": "Joyner Lucas",
+      "Total Listens": "821"
+    },
+    {
+      "Image": "/assets/img/Artists/Lil_Wayne.jpg",
+      "Name": "Lil Wayne",
+      "Total Listens": "603"
+    },
+    {
+      "Image": "/assets/img/Artists/Logic.jpg",
+      "Name": "Logic",
+      "Total Listens": "586"
+    },
+    {
+      "Image": "/assets/img/Artists/Roddy_Ricch.jpg",
+      "Name": "Roddy Ricch",
+      "Total Listens": "425"
+    }
+  ]
