@@ -52,7 +52,7 @@ function submitAlert() {
         table += '<td>  <i onclick="heartFunc(this)" class="fa fa-heart"></i> </td>'
         table += `<td>  ${element["Title"]}  </td>`
         table += `<td>  ${element["Artist"]}  </td>`
-        table += `<td>  ${element["Total Listens"]}</td>`
+        table += `<td><div class="barchart" width=${element["Total Listens"]}/10000 * 100%>${element["Total Listens"]}</div></td>`
         table += "</tr>"
       })
       table += "</table>"
@@ -72,7 +72,7 @@ function submitAlert() {
       let table = '';
       table += "<table>"
       data.forEach(element => {
-        table += `<img src="${element["Image"]}" style="margin-left: 20px">  `
+        table += `<img src="${element["Image"]}" style="margin-left: 20px">`
       })
       table += "</table>"
       gridArtists.innerHTML = table; //Outputs to html
