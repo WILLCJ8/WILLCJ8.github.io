@@ -21,12 +21,18 @@
       "Image": "/assets/img/TrackImg/Bezerk.jpg",
       "Title": "Bezerk (feat. A$AP Ferg)",
       "Artist": "Big Sean",
-      "Total Listens": "352 Listens"
+      "Total Listens": "372 Listens"
     },
     {
       "Image": "/assets/img/TrackImg/Emotionally_Scarred.jpg",
       "Title": "Emotionally Scarred",
       "Artist": "Lil Baby",
+      "Total Listens": "354 Listens"
+    },
+    {
+      "Image": "/assets/img/TrackImg/You_Gon'_Learn.jpg",
+      "Title": "You Gon' Learn (feat. Royce Da 5'9 & White Gold)",
+      "Artist": "Eminem",
       "Total Listens": "313 Listens"
     },
     {
@@ -36,8 +42,8 @@
       "Total Listens": "299 Listens"
     },
     {
-      "Image": "/assets/img/TrackImg/Not_Alike.jpg",
-      "Title": "Not Alike (feat. Royce Da 5'9)",
+      "Image": "/assets/img/TrackImg/Stepping_Stone.jpg",
+      "Title": "Stepping Stone",
       "Artist": "Eminem",
       "Total Listens": "286 Listens"
     },
@@ -46,12 +52,6 @@
       "Title": "Lord Willin'",
       "Artist": "Logic",
       "Total Listens": "259 Listens"
-    },
-    {
-      "Image": "/assets/img/TrackImg/LOVE.png",
-      "Title": "LOVE.FEAT.ZACARI.",
-      "Artist": "Kendrick Lamar",
-      "Total Listens": "222 Listens"
     },
     {
       "Image": "/assets/img/TrackImg/ADHD.jpg",

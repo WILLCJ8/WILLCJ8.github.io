@@ -60,7 +60,21 @@
         <button type="submit">Submit</button>
       </form>
     </div>
+    
+    <!-- The Start of the comment section -->
+    <form class="info">
+      <label for="comment">Comments</label>
+      <textarea placeholder="Comment" id="comment" name="comment" maxlength="400" cols="75" rows="8"></textarea>
+      <br/>
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name"/>
+      <br/>
+      <input type="button" onclick="getcomment()" value="Post Comment" name="button"/>
+      <br/>
+      <div class="para" id="para"></div>
+    </form>
+
     <!--Javascript link-->
-    <script src="/Javascript.js"></script>
+    <script src="assets/js/Javascript.js"></script>
   </body>
 </html>

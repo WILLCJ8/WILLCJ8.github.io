@@ -5,14 +5,19 @@
       "Total Listens": "2104"
     },
     {
+      "Image": "/assets/img/Artists/Machine_Gun_Kelly.jpg",
+      "Name": "Machine Gun Kelly",
+      "Total Listens": "1590"
+    },
+    {
+      "Image": "/assets/img/Artists/Lil_Wayne.jpg",
+      "Name": "Lil Wayne",
+      "Total Listens": "1252"
+    },
+    {
       "Image": "/assets/img/Artists/DaBaby.png",
       "Name": "DaBaby",
       "Total Listens": "1033"
-    },
-    {
-      "Image": "/assets/img/Artists/Machine_Gun_Kelly.jpg",
-      "Name": "Machine Gun Kelly",
-      "Total Listens": "1040"
     },
     {
       "Image": "/assets/img/Artists/TheWeeknd.jpg",
@@ -23,11 +28,6 @@
       "Image": "/assets/img/Artists/Joyner_Lucas.jpg",
       "Name": "Joyner Lucas",
       "Total Listens": "821"
-    },
-    {
-      "Image": "/assets/img/Artists/Lil_Wayne.jpg",
-      "Name": "Lil Wayne",
-      "Total Listens": "603"
     },
     {
       "Image": "/assets/img/Artists/Logic.jpg",
