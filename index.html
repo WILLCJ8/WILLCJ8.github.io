@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!--Title Text-->
     <title>Home</title>
     <!--Links CSS file to HTML-->
-    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Font Links -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--This is the navigation bar-->
@@ -25,7 +31,11 @@
       <div class="hero-text">
         <h1>Music Website</h1>
         <p>Cody Williams</p>
-        <img style="border-radius: 50%; margin-left: 25%; width: 100px;" src="/assets/img/avatar_image.jpg" alt="Avatar">
+        <img
+          style="border-radius: 50%; margin-left: 25%; width: 100px;"
+          src="/assets/img/avatar_image.jpg"
+          alt="Avatar"
+        />
       </div>
     </div>
 
@@ -46,18 +56,31 @@
       <h3>Top Artists</h3>
     </div>
     <div id="Top_Artists"></div>
-    
+
     <!-- The Start of the comment section -->
     <div class="Form">
-    <form class="info">
-      <label for="comment">Comments</label>
-      <input id="name" type="text" name="name" placeholder="Full Name"/>
-      <textarea placeholder="Comment" id="comment" name="comment" maxlength="400" cols="75" rows="8"></textarea>
-      <br/>
-      <input class="buttonSubmit" type="button" onclick="getcomment()" value="Post Comment" name="Submit"/>
-      <br/>
-      <div class="para" id="commentOut"></div>
-    </form>
+      <form class="info">
+        <label for="comment">Comments</label>
+        <input id="name" type="text" name="name" placeholder="Full Name" />
+        <textarea
+          placeholder="Comment"
+          id="comment"
+          name="comment"
+          maxlength="400"
+          cols="75"
+          rows="8"
+        ></textarea>
+        <br />
+        <input
+          class="buttonSubmitF"
+          type="button"
+          onclick="getcomment()"
+          value="Post Comment"
+          name="Submit"
+        />
+        <br />
+        <div class="para" id="commentOut"></div>
+      </form>
     </div>
     <!--Javascript link-->
     <script src="assets/js/Javascript.js"></script>

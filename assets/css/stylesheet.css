@@ -1,35 +1,26 @@
 /*Body style*/
-
 body,
 html {
   height: 100%;
   margin: 0;
   background-color: #262626;
 }
-
-
 /*Simple img styling*/
-
 img {
   display: block;
   width: 60px;
 }
-
-
 /* The hero image */
-
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/hero_image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/img/hero_image.jpg");
   height: 30%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: initial;
   position: relative;
 }
-
-
 /*The Hero Text*/
-
 .hero-text {
   text-align: center;
   position: absolute;
@@ -39,9 +30,7 @@ img {
   color: #00aeff;
   font-family: "Raleway", "Roboto", "Arial";
 }
-
 /*Navigation bar style*/
-
 ul.nav {
   list-style-type: none;
   margin: 0;
@@ -49,11 +38,9 @@ ul.nav {
   overflow: hidden;
   background-color: #00aeff;
 }
-
 ul.nav li {
   float: left;
 }
-
 ul.nav li a {
   display: flex;
   font-family: "Roboto", "Raleway", "Arial";
@@ -62,22 +49,16 @@ ul.nav li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 ul.nav li a:hover:not(.active) {
-  background-color: #2371A0;
+  background-color: #2371a0;
 }
-
 ul.nav li a.active {
-  background-color: #262626
+  background-color: #262626;
 }
-
 ul.nav li.right {
   float: right;
 }
-
-
 /*The comment form*/
-
 form {
   padding: 10px;
   margin: 10px;
@@ -88,7 +69,6 @@ form {
   color: #00aeff;
   margin: 20px;
 }
-
 .buttonSubmit {
   background-color: #00aeff;
   width: 100%;
@@ -102,7 +82,6 @@ textarea {
   outline: none;
   font-family: "Roboto", "Raleway", "Arial";
 }
-
 button {
   width: 100%;
   padding: 10px;
@@ -113,46 +92,35 @@ button {
   font-weight: 500;
   color: #262626;
 }
-
 button:hover {
   background: #2371a0;
 }
-
 .para {
   color: whitesmoke;
   font-size: 18px;
 }
-
 @media (min-width: 568px) {
   .main-block {
     flex-direction: row;
   }
 }
-
 .left-part,
 form {
   width: 30%;
 }
-
-
 /*This is the heart styling*/
-
 .fa {
   color: #2371a0;
   font-size: 50px;
   cursor: pointer;
 }
-
-
 /*This is the music table style*/
-
-table{
+table {
   margin-left: 20px;
   margin-bottom: 50px;
   border-collapse: collapse;
   font-family: "Roboto", "Raleway", "Arial";
 }
-
 td {
   background: #262626;
   color: whitesmoke;
@@ -162,7 +130,6 @@ td {
   font-size: 18px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
 }
-
 .table-fill {
   background: #262626;
   border-collapse: collapse;
@@ -174,14 +141,12 @@ td {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   animation: float 5s infinite;
 }
-
 div.table-title {
   display: block;
   margin: 10px;
   padding: 10px;
   text-align: left;
 }
-
 .table-title h3 {
   color: whitesmoke;
   font-size: 22px;
@@ -189,7 +154,6 @@ div.table-title {
   font-family: "Roboto", "Raleway", "Arial";
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -198,30 +162,22 @@ div.table-title {
   background-color: #00aeff;
 }
 /* Create four equal columns that sits next to each other */
-
 .Top_Artists {
   flex: 25%;
   max-width: 25%;
 }
-
 .Top_Artists img {
   vertical-align: middle;
   width: 100%;
 }
-
-
 /* Responsive layout - makes a two column-layout instead of four columns */
-
 @media screen and (max-width: 800px) {
   .Top_Artists {
     flex: 50%;
     max-width: 50%;
   }
 }
-
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
 @media screen and (max-width: 600px) {
   .Top_Artists {
     flex: 100%;
