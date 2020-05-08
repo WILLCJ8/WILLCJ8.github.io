@@ -75,7 +75,10 @@ ul.nav li.right {
   float: right;
 }
 
-
+.para {
+  color: whitesmoke;
+  font-size: 18px;
+}
 /*The comment form*/
 
 form {
@@ -89,6 +92,10 @@ form {
   margin: 20px;
 }
 
+.buttonSubmit {
+  background-color: #00aeff;
+  width: 100%;
+}
 input,
 textarea {
   width: calc(100% - 18px);

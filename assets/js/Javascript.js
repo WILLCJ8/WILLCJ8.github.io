@@ -94,5 +94,5 @@ function getcomment() {
     "<div>" +
     "Posted at: " +
     d;
-  document.getElementById("para").appendChild(node);
+  document.getElementById("commentOut").appendChild(node);
 }
